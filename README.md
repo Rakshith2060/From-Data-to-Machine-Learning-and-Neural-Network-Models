@@ -24,3 +24,15 @@ Supervised Learning: We have labeled data where the target variable (NOx Rate) i
 each observation.
 Regression Task: As the target variable, that is NOx Rate (lbs/mmBtu), is continuous and 
 numerical, this makes this a regression problem
+
+Part 3 :
+The OCTMNIST is based on a prior dataset of 109,309 valid optical coherence tomography 
+(OCT) images for retinal diseases. Each example is a 28x28 image, associated with a label 
+from 4 classes.
+
+About files :
+rakshit2_assignment0_part_1 is the jupyter notebook file for emissions-hourly-2023-wa dataset 
+rakshit2_assignment0_part_3 is the jupyter notebook file for OCTMNIST classification dataset
+rakshit2_assignment0_bonus folder contains the deployment of part_1 where it contains a datasets and a demo video of how to run the code jupyter notebook file of the code and pickle file for the deployement.
+Model Deployment is done using a STREAMLIT deployment tool make sure after exporting all the files are in the same folder and open it in a vs code 
+The commands to run the deployment file is python -m streamlit run rakshit2_assignment0_deploy.py and then open localhost:8501 
